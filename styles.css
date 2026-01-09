@@ -329,26 +329,27 @@ th {
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background: var(--primary);
-    color: white;
-    text-decoration: none;
+    background: var(--primary) !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 600;
     transition: background 0.2s;
     margin-top: 10px;
+    border: none;
 }
 
 .btn:hover {
-    background: var(--primary-dark);
-    color: white;
+    background: var(--primary-dark) !important;
+    color: #FFFFFF !important;
 }
 
 .btn-secondary {
-    background: var(--secondary);
+    background: var(--secondary) !important;
 }
 
 .btn-secondary:hover {
-    background: #5AA592;
+    background: #5AA592 !important;
 }
 
 /* Footer */
