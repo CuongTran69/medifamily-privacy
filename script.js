@@ -1,7 +1,7 @@
-// MediFamily Website Script - Language Switching
+// FamilyLog Website Script - Language Switching
 
 // Get saved language or default to 'en'
-let currentLang = localStorage.getItem('medifamily-lang') || 'en';
+let currentLang = localStorage.getItem('familylog-lang') || 'en';
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Set language function
 function setLang(lang) {
     currentLang = lang;
-    localStorage.setItem('medifamily-lang', lang);
+    localStorage.setItem('familylog-lang', lang);
 
     // Update all elements with data-en and data-vi attributes
     document.querySelectorAll('[data-en]').forEach(el => {

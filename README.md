@@ -1,1 +1,1 @@
-# medifamily-privacy
+# FamilyLog Website - Privacy Policy & Support
